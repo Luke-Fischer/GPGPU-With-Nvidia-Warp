@@ -1,7 +1,7 @@
 # GPGPU-With-Nvidia-Warp
 Using the Nvidia Warp API to sharpen and denoise greyscale and coloured images
 
-#Usage
+# Usage
 python3 process_image.py algType kernelSize param inFileName outFileName
 where:
   - algType is "-s" to sharpen or "-n" to denoise
@@ -10,6 +10,6 @@ where:
   - inFileName is the image you want to process
   - outFileName is the processed image
 
-#My Approach
+# My Approach
 - To sharpen an image my program is using an unmask sharpening technique with mean filtering
 - To denoise an image my program is using median filtering
