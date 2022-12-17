@@ -12,7 +12,7 @@ noise = 0
 
 #command line validation
 if (len(sys.argv) != 6):
-    print("Invalid number of arguments, correct usage: python3 ./a4.py algType kernSize param inFileName outFileName")
+    print("Invalid number of arguments, correct usage: python3 ./process_image.py algType kernSize param inFileName outFileName")
     sys.exit()
 if(sys.argv[1] == '-s'):
     sharpen = 1
