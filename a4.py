@@ -267,7 +267,6 @@ outWarpImage = wp.zeros(shape=numpyArr.shape, dtype=float, device=device)
 #Warp data sructure for median array
 medianWarp = wp.zeros(shape=(kernelSize * kernelSize), dtype=float, device=device)
 
-print(image.mode)
 #launch kernel
 if(mode == 0):
     wp.launch(kernel=greyScale,
